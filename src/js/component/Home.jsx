@@ -11,27 +11,29 @@ import rigoImage from "../../img/rigo-baby.jpg";
 import python from '../../img/logo-python.png';
 import react from '../../img/logo-reactjs.png';
 import hcht from '../../img/logo-hcht-uk.jpg';
+import { ExampleForm } from "./ExampleForm.jsx";
 
 
 // 2. Create your first component, primera en letra en Mayúscula.
 const Home = () => {
 	// 3. Código JS
 	const title = 'Intro React';
-	const subtitle = 'Hooks: useState';
-	const description = 'Repaso, Desestructuración, useState';
+	const subtitle = 'Hooks: useState | Form';
+	const description = 'Input Controlados';
 
 	// 4. Definir el return q devuelve 1 solo elementeo HTML
 	return (
 		<div className="text-center">
 			<Navbar/>
 			<Title title={title} subtitle={subtitle} description={description} />
-			<Counter/>
-			<div className="container">
+			{/* <Counter/> */}
+			{/* <div className="container">
 				<Card image={hcht} title='Héctor Chocobar'/>
 				<Card image={python} title='Python' btn="Abrir nueva pestaña"/>
 				<Card image={react}  title='React'/>
 				<Card image={rigoImage} title='4Geeks Academy'/>
-			</div>
+			</div> */}
+			<ExampleForm />
 			<Footer />
 		</div>
 	);
