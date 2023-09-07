@@ -5,7 +5,7 @@ import React from "react";
 // 2. creo el Componente
 function Navbar() {
   // 3. codigo JS
-  let brand = "Spain 44";
+  let brand = "Spain 46";
 
   // 4. Retorno un solo elemento html
   return (
