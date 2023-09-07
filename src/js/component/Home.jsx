@@ -12,14 +12,15 @@ import python from '../../img/logo-python.png';
 import react from '../../img/logo-reactjs.png';
 import hcht from '../../img/logo-hcht-uk.jpg';
 import { ExampleForm } from "./ExampleForm.jsx";
+import { TodoList } from "./TodoList.jsx";
 
 
 // 2. Create your first component, primera en letra en Mayúscula.
 const Home = () => {
 	// 3. Código JS
 	const title = 'Intro React';
-	const subtitle = 'Hooks: useState | Form';
-	const description = 'Input Controlados';
+	const subtitle = '';
+	const description = '';
 
 	// 4. Definir el return q devuelve 1 solo elementeo HTML
 	return (
@@ -33,7 +34,8 @@ const Home = () => {
 				<Card image={react}  title='React'/>
 				<Card image={rigoImage} title='4Geeks Academy'/>
 			</div> */}
-			<ExampleForm />
+			{/* <ExampleForm /> */}
+			<TodoList />
 			<Footer />
 		</div>
 	);
