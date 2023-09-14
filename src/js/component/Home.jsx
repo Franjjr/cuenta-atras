@@ -13,12 +13,13 @@ import react from '../../img/logo-reactjs.png';
 import hcht from '../../img/logo-hcht-uk.jpg';
 import { ExampleForm } from "./ExampleForm.jsx";
 import { TodoList } from "./TodoList.jsx";
+import { TodoListRestAPI } from "./TodoListRestAPI.jsx";
 
 
 // 2. Create your first component, primera en letra en Mayúscula.
 const Home = () => {
 	// 3. Código JS
-	const title = 'Intro React';
+	const title = 'Fetch - Async Await';
 	const subtitle = '';
 	const description = '';
 
@@ -35,7 +36,8 @@ const Home = () => {
 				<Card image={rigoImage} title='4Geeks Academy'/>
 			</div> */}
 			{/* <ExampleForm /> */}
-			<TodoList />
+			{/* <TodoList />*/}
+			<TodoListRestAPI/>
 			<Footer />
 		</div>
 	);
