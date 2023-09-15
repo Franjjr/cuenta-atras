@@ -24,7 +24,7 @@ export const TodoListRestAPI = () => {
     const url = `${base_url}/todos/user/${user_name}`;
     // 3. Genero un objeto con las request options
     const options = {
-      methods: "GET",
+      method: "GET",
       headers: {"Content-Type": "application/json"}
     }
     // 4. Realizao la petición al request con el comando fetch en modo await (espera) y 
