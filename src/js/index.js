@@ -6,8 +6,9 @@ import ReactDOM from "react-dom";  // Import ReactDOM
 import "../styles/index.css";
 
 // Import your own components
-import Home from "./component/Home.jsx";  // Importando el componente principal
+// import Home from "./component/Home.jsx";  // Importando el componente principal
+import { Layout } from "./Layout.jsx";
 
 // Render your react application
 //              What/Que?                 Where/Donde ? 
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(<Layout />, document.querySelector("#app"));

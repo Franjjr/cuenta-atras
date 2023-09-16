@@ -1,9 +1,9 @@
 // 1. importar React y todos lo import
 import React from "react";
-import Navbar from "./Navbar.jsx";
-import Footer from "./Footer.jsx";
-import { Members }  from "./Members.jsx";
-import { Title } from "./Title.jsx";
+import Navbar from "../component/Navbar.jsx";
+import Footer from "../component/Footer.jsx";
+import { Title } from "../component/Title.jsx";
+import { Members }  from "../component/Members.jsx";
 import { Card } from "./Card.jsx";
 import { Counter } from "./Counter.jsx";
 // Include images into your bundle
@@ -12,8 +12,8 @@ import python from '../../img/logo-python.png';
 import react from '../../img/logo-reactjs.png';
 import hcht from '../../img/logo-hcht-uk.jpg';
 import { ExampleForm } from "./ExampleForm.jsx";
-import { TodoList } from "./TodoList.jsx";
-import { TodoListRestAPI } from "./TodoListRestAPI.jsx";
+import { TodoList } from "../component/TodoList.jsx";
+import { TodoListRestAPI } from "../component/TodoListRestAPI.jsx";
 
 
 // 2. Create your first component, primera en letra en Mayúscula.
@@ -28,14 +28,14 @@ const Home = () => {
 		<div className="text-center">
 			<Navbar/>
 			<Title title={title} subtitle={subtitle} description={description} />
-			{/* <Counter/> */}
+			<Counter/>
 			{/* <div className="container">
 				<Card image={hcht} title='Héctor Chocobar'/>
 				<Card image={python} title='Python' btn="Abrir nueva pestaña"/>
 				<Card image={react}  title='React'/>
 				<Card image={rigoImage} title='4Geeks Academy'/>
 			</div> */}
-			{/* <ExampleForm /> */}
+			<ExampleForm />
 			{/* <TodoList />*/}
 			<TodoListRestAPI/>
 			<Footer />
