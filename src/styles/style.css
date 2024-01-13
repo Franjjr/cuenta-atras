@@ -1,0 +1,45 @@
+#semaforo {
+  width: 50px;
+  height: 150px;
+  margin: auto;
+  background-color: #333;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.luz {
+  width: 40px;
+  height: 40px;
+  margin: 5px auto;
+  border-radius: 50%;
+}
+
+.rojo {
+  background-color: red;
+  opacity: 0.2;
+}
+
+.amarillo {
+  background-color: yellow;
+  opacity: 0.2;
+}
+
+.verde {
+  background-color: green;
+  opacity: 0.2;
+}
+
+.rojoIlu {
+  background-color: red;
+  box-shadow: 0px 0px 20px red;
+}
+
+.amarilloIlu {
+  background-color: yellow;
+  box-shadow: 0px 0px 20px yellow;
+}
+
+.verdeIlu {
+  background-color: green;
+  box-shadow: 0px 0px 20px green;
+}
